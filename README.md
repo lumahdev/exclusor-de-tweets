@@ -1,29 +1,21 @@
-# Tweet Deleter
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff)](#)
+# 🐦 Exclusor de Tweets
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) [![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff)](#) [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) Script para deletar posts (tweets) no X, antigo Twitter.
 
-Script which logs into your Twitter/X account and launches Selenium to delete your tweets. Currently the login credentials need to be updated directly on the code but this will be changed in the future.
-
-## Installation
+## Instalação
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
-Change the following variables on the code:
-1. **user**: your username;
-2. **password**: your password;
-3. **URL_DA_PAGINA**: your profile's url.
+## Uso
+Substitua as variáveis presentes no script:
 
-## Run
+- `user`: seu usuário
+
+- `password`: sua senha
+
+- `URL_DA_PAGINA`: URL do seu perfil
+
+## Execução
 ```bash
 py file.py
 ```
-
-## Author
-<img src="https://github.com/lumahdev.png" width="80" align="left"/>
-
-***Lumah Pereira***
-
-
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/lumah-pereira) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://www.github.com/lumahloi)
